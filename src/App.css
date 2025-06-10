@@ -1,13 +1,20 @@
 ul {
-  display: flex;
-  width: 100%;
-  padding: 0;
-  flex-wrap: wrap;
+   display: flex;
+   width: 100%;
+   padding: 0;
+   flex-wrap: wrap;
 }
 
 li {
-  list-style-type: none;
-  border: 1px solid black;
-  width: 16.55%;
-  text-align: center;
+   list-style-type: none;
+   border: 1px solid rgb(255, 255, 255);
+   width: 130px;
+   text-align: center;
+   border-radius: 3%;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   place-items: center;
+   margin: 10px;
+   padding: 10px;
 }
+
+
